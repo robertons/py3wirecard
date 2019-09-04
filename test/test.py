@@ -14,13 +14,13 @@ def main(arg):
 
     WireCard("0INPI8X1E06VRHDVBF4LSPNPTXRG7JQJ", "VHZLZFBJSNDIC0JJZKLOQC7WGOWMCLDZHNSP54BF", sandbox=True)
 
-    # Criar Cliente
+    #Criar Cliente
     # cliente = Customer()
-    # cliente.ownId = "1201"
+    # cliente.ownId = "1234"
     # cliente.fullname = "Fulando da Silva"
     # cliente.email = "fulano@email.com"
     # cliente.birthDate = datetime(1980,1,1)
-    # cliente.taxDocument = TaxDocument(type="CPF", number = "000000000")
+    # cliente.taxDocument = TaxDocument(type="CPF", number = "09292800752")
     # cliente.shippingAddress = Address(street= "Nome da Rua", streetNumber="01", complement="SN", district="Bairro", city="Cidade", state="UF", zipCode=00000000, country="BRA")
     # cliente.phone = Phone(countryCode=55, areaCode=11, number=999999999)
     # cliente.create()
