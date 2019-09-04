@@ -17,12 +17,12 @@ def main(arg):
     # Criar Cliente
     # cliente = Customer()
     # cliente.ownId = "1201"
-    # cliente.fullname = "Roberto Neves da Silva"
-    # cliente.email = "robertonsilva@gmail.com"
-    # cliente.birthDate = datetime.now()
-    # cliente.taxDocument = TaxDocument(type="CPF", number = "09292800752")
-    # cliente.shippingAddress = Address(street= "Des. Euripedes Queiroz do Valle", streetNumber="301", complement="802", district="Jardim Camburi", city="Vitória", state="ES", zipCode=29090090, country="BRA")
-    # cliente.phone = Phone(countryCode=55, areaCode=27, number=999191566)
+    # cliente.fullname = "Fulando da Silva"
+    # cliente.email = "fulano@email.com"
+    # cliente.birthDate = datetime(1980,1,1)
+    # cliente.taxDocument = TaxDocument(type="CPF", number = "000000000")
+    # cliente.shippingAddress = Address(street= "Nome da Rua", streetNumber="01", complement="SN", district="Bairro", city="Cidade", state="UF", zipCode=00000000, country="BRA")
+    # cliente.phone = Phone(countryCode=55, areaCode=11, number=999999999)
     # cliente.create()
 
     # Consultar Cliente

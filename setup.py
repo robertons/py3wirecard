@@ -10,16 +10,15 @@ readme = open('README.md').read()
 with open('requirements.txt') as reqs:
     requirements = reqs.read().split()
 
-
 setup(
-    name='pagseguro',
+    name='py3wirecard',
     version='0.0.1',
     description='Wirecard API v2 Wrapper',
     author='Roberto Neves',
     author_email='robertonsilva@gmail.com',
     url='https://github.com/robertons/py3wirecard',
-    packages=['pagseguro', ],
-    package_dir={'pagseguro': 'pagseguro'},
+    packages=['py3wirecard' ],
+    package_dir={'py3wirecard': 'py3wirecard'},
     include_package_data=True,
     install_requires=requirements,
     long_description=readme,
@@ -32,15 +31,10 @@ setup(
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'Natural Language :: English',
-        'License :: OSI Approved :: BSD License',
+        'Natural Language :: Portuguese (Brazilian)',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python',
-        'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.6',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
     ],
-    keywords='pagseguro, payment, payments, credit-card'
+    keywords='wirecard, payment, payments, credit-card, boleto, moip'
 )
