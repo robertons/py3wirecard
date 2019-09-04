@@ -20,7 +20,7 @@ python setup.py install
 
 ## Configuração
 
-```bash
+```python
 import py3wirecard
 
 WireCard("API TOKEN", "API KEY",sandbox=True)
@@ -29,7 +29,7 @@ WireCard("API TOKEN", "API KEY",sandbox=True)
 
 **Cadastro**
 
-```bash
+```python
 cliente = Customer()
 cliente.ownId = "1201"
 cliente.fullname = "Fulando da Silva"
@@ -42,6 +42,6 @@ cliente.create()
 ```
 **Consulta**
 
-```bash
+```python
 cliente = Customer().get("CUS-PCVTIJ37EWBZ")
 ```
