@@ -61,8 +61,7 @@ def main(arg):
     # pagamento.create(order_id="ORD-01F0UJSQ9QB0")
 
     # Consultar Pagamento
-    # pagamento = Payment()
-    # pagamento.get("PAY-1W24IB9J0DX4")
+    # pagamento = Payment().get("PAY-1W24IB9J0DX4")
 
     # Criar Reembolso Completo de Pagamento
     # reembolso = Refund().create("PAY-1W24IB9J0DX4")
