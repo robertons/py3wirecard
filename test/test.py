@@ -6,7 +6,7 @@ import os
 import re
 from datetime import datetime
 
-sys.path.append('/Users/roberto/projects/')
+sys.path.append('/Users/roberto/projects/py3wirecard')
 
 from py3wirecard import *
 
