@@ -1,3 +1,5 @@
+#-*- coding: utf-8 -*-
+
 from py3wirecard.utils.util import WireCard, RequestException
 
 # MODELS

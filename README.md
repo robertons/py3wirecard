@@ -46,7 +46,11 @@ cliente.create()
 ```python
 cliente = Customer().get("CUS-PCVTIJ37EWBZ")
 ```
+**Lista**
 
+```python
+clientes = Customer().list()
+```
 **Atualização**
 
 Para atualizar um cliente basta criar um novo pedido com os dados do cliente existente informando seu id ou ownId.
@@ -111,7 +115,7 @@ reembolso = Refund().create("PAY-1W24IB9J0DX4")
 ```python
 reembolso = Refund().create("PAY-U67EYCMPR8C4", amount=1000)
 ```
-   **Completo de Compra**
+**Completo de Compra**
 ```python
 reembolso = Refund().create("ORD-01F8CQ9QB0")
 ```

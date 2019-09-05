@@ -12,3 +12,9 @@
 * Reembolso Pagamento ou Compra (Cadastro/Consulta)
 * Preferências de Notificações (Cadastro/Consulta/Listagem/Exclusão)
 * Webhooks (Consulta/Reenvio)
+
+### 0.0.2
+* Correção de Importação
+
+### 0.0.3
+* Suporte a listagem de cliente
