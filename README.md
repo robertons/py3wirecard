@@ -22,7 +22,7 @@ python setup.py install
 ## Configuração
 
 ```python
-import py3wirecard
+from py3wirecard import *
 
 WireCard("API TOKEN", "API KEY",sandbox=True)
 ```
