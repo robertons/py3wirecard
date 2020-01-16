@@ -9,7 +9,7 @@ with open('requirements.txt') as reqs:
 
 setuptools.setup(
     name='py3wirecard',
-    version='0.0.3',
+    version='0.0.4',
     description='Wirecard API v2 Wrapper',
     author='Roberto Neves',
     author_email='robertonsilva@gmail.com',

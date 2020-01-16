@@ -73,6 +73,7 @@ compra.customer.taxDocument = TaxDocument(type="CPF", number = "000000000")
 compra.customer.shippingAddress = Address(street= "Nome da Rua", streetNumber="01", complement="SN", district="Bairro", city="Cidade", state="UF", zipCode=00000000, country="BRA")
 compra.customer.phone = Phone(countryCode=55, areaCode=11, number=999999999)
 compra.shippingAddress = Address(street= "Nome da Rua", streetNumber="01", complement="SN", district="Bairro", city="Cidade", state="UF", zipCode=00000000, country="BRA")
+compra.receivers.append(Receiver(type = 'SECONDARY', feePayor = False, moipAccount = MoipAccount(id='IDCONTA'), amount = Amount(fixed = 10000)))
 compra.create()
 ```
 

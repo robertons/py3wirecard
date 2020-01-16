@@ -18,3 +18,6 @@
 
 ### 0.0.3
 * Suporte a listagem de cliente
+
+### 0.0.4
+* Conversão de valores em campos string
